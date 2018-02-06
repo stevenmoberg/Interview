@@ -173,10 +173,25 @@ Which of the followings are validation directives?
 	3) ng-pattern
 	4) All of the above
 
-Which of the following is validation css class in AngularJS
+Which of the following is a validation css class in AngularJS
 
 	1) ng-valid
 	2) ng-invalid
 	3) ng-pristine
 	4) All of the above
 
+
+
+
+What ng directive is used to stop displaying the angular template on page load before angular loads
+
+	?
+
+Angular binding inside an image tag src attribute will cause the browser to make an HTTP request with the raw expressiong string
+What ng directive is used on the image tag to stop this behavior
+
+	?
+	
+	example: <img src="{{imageUrl}}" /> results in 404
+	
+	

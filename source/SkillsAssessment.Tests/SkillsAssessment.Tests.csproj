@@ -90,7 +90,7 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Questions\AngularJS.txt" />
+    <Content Include="AngularJS\Questions.txt" />
     <Content Include="_readme.txt" />
     <Content Include="Web\_readme.txt" />
   </ItemGroup>
