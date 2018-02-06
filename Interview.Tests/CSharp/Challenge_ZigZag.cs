@@ -1,7 +1,7 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace Interview.Tests.CSharp
+namespace SkillsAssessment.Tests.CSharp
 {
     [TestClass]
     public class Challenge_ZigZag
@@ -10,7 +10,7 @@ namespace Interview.Tests.CSharp
         public void Should_Print_ZigZag()
         {
             // Arrange;
-            var text = "MOODYSINTERVIEW";
+            var text = "MOODYSSkillsAssessment";
 
             // Act
             // Assert
@@ -20,7 +20,7 @@ namespace Interview.Tests.CSharp
 
 
         // given - 3 rows
-        // MOODYSINTERVIEW
+        // MOODYSSkillsAssessment
         // -------------------
         // M   Y   T   I
         // O D S N E V E 
@@ -30,7 +30,7 @@ namespace Interview.Tests.CSharp
         // MYTIODSNEVEOIRW
 
         // given - 4 rows
-        // MOODYSINTERVIEW
+        // MOODYSSkillsAssessment
         // -------------------
         // M     I     I
         // O   S N   V E

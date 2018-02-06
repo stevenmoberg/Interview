@@ -3,14 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace Interview.Tests.CSharp
+namespace SkillsAssessment.Tests.CSharp
 {
     [TestClass]
     public class Challenge_FizzBuzz : BaseTest
     {
-        /// <summary>
-        /// Write a short program that prints each number from 1 to 100 on a new line.
-        /// </summary>
         [TestMethod]
         public void Should_Print_FizzBuzz()
         {
@@ -31,7 +28,7 @@ namespace Interview.Tests.CSharp
             // For each multiple of 5, print "Buzz" instead of the number. 
             // For numbers which are multiples of both 3 and 5, print "FizzBuzz" instead of the number.
 
-            // {code}
+            // {write code here}
 
             yield break;
         }

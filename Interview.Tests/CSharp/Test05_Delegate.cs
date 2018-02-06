@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace Interview.Tests.CSharp
+namespace SkillsAssessment.Tests.CSharp
 {
     [TestClass]
     public class Test05 : BaseTest

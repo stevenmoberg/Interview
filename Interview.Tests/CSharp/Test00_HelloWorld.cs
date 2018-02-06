@@ -1,7 +1,7 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
 
-namespace Interview.Tests.CSharp
+namespace SkillsAssessment.Tests.CSharp
 {
     [TestClass]
     public class Test00 : BaseTest

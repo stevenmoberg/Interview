@@ -1,7 +1,7 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace Interview.Tests.CSharp
+namespace SkillsAssessment.Tests.CSharp
 {
     /// <summary>
     /// Show 3 ways to pass parameters to a with examples
