@@ -16,17 +16,19 @@ namespace SkillsAssessment.Tests.CSharp
             // Arrange
             var value = 5;
             var expected = 10;
-            // inline function to demo pass by value
-            int GetByValue(int x)
-            {
-                return x * 2;
-            }
+
 
             // Act
-            var actual = GetByValue(value);
+            var actual = PassByValue(value);
 
             // Assert
             Assert.AreEqual(expected, actual);
+        }
+
+        // function to test pass by value
+        int PassByValue(int x)
+        {
+            return x * 2;
         }
 
 
