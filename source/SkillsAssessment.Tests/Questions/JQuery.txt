@@ -1,159 +1,158 @@
 ﻿jQuery is a _______ side library.
 
-	A. Client
-	B. Server
-	C. CDN
-	D. web 
-
+	A) Client
+	B) Server
+	C) CDN
+	D) web
 
 
 jQuery is a ________ library.
 
-	A. Java
-	B. JavaScript
-	C. Script
-	D. VBScript
+	A) Java
+	B) JavaScript
+	C) Script
+	D) VBScript
 
 
 jQuery library add which global function?
 
-	A. Window
-	B. jQuery
-	C. document
-	D. ready
+	A) Window
+	B) jQuery
+	C) document
+	D) ready
 
 
 Which of the following is shorthand for jQuery function?
 
-	A. &
-	B. jq
-	C. $
-	D. None of the above
+	A) &
+	B) jq
+	C) $
+	D) None of the above
 
 
 jQuery library version 1.x is for ________ browser
 
-	A. IE 9+
-	B. All modern browser
-	C. IE 6.0 to 8.0
-	D. All older browser
+	A) IE 9+
+	B) All modern browser
+	C) IE 6.0 to 8.0
+	D) All older browser
 
 
 Which of the following statement determines document is loaded?
 
-	A. $(document).ready(function(){ });
-	B. $(document).loaded(function(){ });
-	C. jQuery.ready(function(){ });
-	D. jQuery.isLoaded(document);
+	A) $(document).ready(function(){ });
+	B) $(document).loaded(function(){ });
+	C) jQuery.ready(function(){ });
+	D) jQuery.isLoaded(document);
 
 
 ______ selects DOM element by id.
 
-	A. $([‘id’])
-	B. $(‘id’)
-	C. $(‘#id’)
-	D. $(‘*id’)
+	A) $([‘id’])
+	B) $(‘id’)
+	C) $(‘#id’)
+	D) $(‘*id’)
 
 
 $(“div[class *=’myCls’]”) selects which element(s)?
 
-	A. All div elements whose class attribute value is equal to myCls
-	B. All div elements whose class attribute value starts with myCls
-	C. All div elements whose class attribute value ends with myCls
-	D. All div elements whose class attribute value contains myCls
+	A) All div elements whose class attribute value is equal to myCls
+	B) All div elements whose class attribute value starts with myCls
+	C) All div elements whose class attribute value ends with myCls
+	D) All div elements whose class attribute value contains myCls
 
 
 $(this) selects_________.
 
-	A. Window object
-	B. Current html element
-	C. Current calling object
-	D. DOM
+	A) Window object
+	B) Current html element
+	C) Current calling object
+	D) DOM
 
 
 Which of the following jQuery method add/remove CSS classes from the selected elements?
 
-	A. addClass()
-	B. removeClass()
-	C. toggleClass()
-	D. css()
+	A) addClass()
+	B) removeClass()
+	C) toggleClass()
+	D) css()
 
 
 Which of the following function automatically attaches new DOM elements to an event handler?
 
-	A. live
-	B. delegate
-	C. on
-	D. All of the above
+	A) live
+	B) delegate
+	C) on
+	D) All of the above
 
 
 Which jQuery method is used to deal with name conflicts?
 
-	A. Conflict()
-	B. noConflict()
-	C. nameConflict()
-	D. None of the above
+	A) Conflict()
+	B) noConflict()
+	C) nameConflict()
+	D) None of the above
 
 
 $("div p.myCls"). What does it select?
 
-	A. All div and p elements with class=myCls
-	B. All the p elements with class=myCls inside div elements.
-	C. All div elements which is parent of p elements with class=myCls
-	D. All div and p elements with class=myCls
+	A) All div and p elements with class=myCls
+	B) All the p elements with class=myCls inside div elements.
+	C) All div elements which is parent of p elements with class=myCls
+	D) All div and p elements with class=myCls
 
 
 Which of the following method is used to request data from server?
 
-	A. $.get()
-	B. $.post()
-	C. $.load()
-	D. All of the above
+	A) $.get()
+	B) $.post()
+	C) $.load()
+	D) All of the above
 
 
 Which of the following method is used to hide the element?
 
-	A. hide()
-	B. display(‘none’)
-	C. noShow()
-	D. hidden()
+	A) hide()
+	B) display(‘none’)
+	C) noShow()
+	D) hidden()
 
 
 Which method returns all sibling elements of the selected element.
 
-	A. next()
-	B. sibling()
-	C. prev()
-	D. prevUntil()
+	A) next()
+	B) sibling()
+	C) prev()
+	D) prevUntil()
 
 
 $("div p").first(); what it selects?
 
-	A. Returns first <p> elements inside the first <div> elements
-	B. Returns first <p> elements from all <div> elements
-	C. Returns first <div> elements which has <p> element
-	D. Returns all <div> and <p> elements appears first in the html.
+	A) Returns first <p> elements inside the first <div> elements
+	B) Returns first <p> elements from all <div> elements
+	C) Returns first <div> elements which has <p> element
+	D) Returns all <div> and <p> elements appears first in the html.
 
 
 Which method allows you to filter elements based on specified criteria?
 
-	A. search()
-	B. find()
-	C. filter()
-	D. get()
+	A) search()
+	B) find()
+	C) filter()
+	D) get()
 
 
 Which of the following statement is TRUE?
 
-	A. jQuery library handles cross-browser issues automatically.
-	B. jQuery library handles provides methods to handle cross-browser issues.
-	C. jQuery does not handle cross-browser issues.
-	D. jQuery is supported only in modern browser.
+	A) jQuery library handles cross-browser issues automatically.
+	B) jQuery library handles provides methods to handle cross-browser issues.
+	C) jQuery does not handle cross-browser issues.
+	D) jQuery is supported only in modern browser.
 
 
 jQuery guarantees to pass _______ in all event handler.
 
-	A. Context object
-	B. event object
-	C. this
-	D. exception
+	A) Context object
+	B) event object
+	C) this
+	D) exception

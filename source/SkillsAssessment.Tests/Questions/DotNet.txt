@@ -1,158 +1,158 @@
 ﻿CLR stands for __________
 
-	A. Common Local Runtime
-	B. Common Language Runtime
-	C. Common Language Realtime
-	D. Common Local Realtime
+	A) Common Local Runtime
+	B) Common Language Runtime
+	C) Common Language Realtime
+	D) Common Local Realtime
 
 
 CLR is responsible for
 
-	A. Garbage Collection
-	B. Code Access Security
-	C. Code Verification
-	D. All of the above
+	A) Garbage Collection
+	B) Code Access Security
+	C) Code Verification
+	D) All of the above
 
 
 GAC stands for
 
-	A. Global Assembly Cache 
-	B. Global Assembly Store
-	C. Garbage Assemble Cache 
-	D. Global Advanced Cache
+	A) Global Assembly Cache
+	B) Global Assembly Store
+	C) Garbage Assemble Cache
+	D) Global Advanced Cache
 
 
 GAC _______.
 
-	A. Stores the .net assemblies which are shared between multiple application 
-	B. Stores global dlls.
-	C. Cache application data.
-	D. None of the above
+	A) Stores the .net assemblies which are shared between multiple application
+	B) Stores global dlls.
+	C) Cache application data.
+	D) None of the above
 
 
 Which of the followings are the types of JIT?
 
-	A. Pre-JIT
-	B. Econo-JT
-	C. Normal-JIT
-	D. All of the above
+	A) Pre-JIT
+	B) Econo-JT
+	C) Normal-JIT
+	D) All of the above
 
 
 Garbage collection includes _______ generations.
 
-	A. one
-	B. two
-	C. three
-	D. five
+	A) one
+	B) two
+	C) three
+	D) five
 
 
 How to force garbage collection to run?
 
-	A. Using GC.Run() method
-	B. Using GC.Collect() method 
-	C. Using GC.Collection() method
-	D. Using GC.Finalize() method
+	A) Using GC.Run() method
+	B) Using GC.Collect() method
+	C) Using GC.Collection() method
+	D) Using GC.Finalize() method
 
 
 IL in .Net stands for ________.
 
-	A. Intermediate Language
-	B. International Language
-	C. Interoperate Language
-	D. Intermediate Local
+	A) Intermediate Language
+	B) International Language
+	C) Interoperate Language
+	D) Intermediate Local
 
 
 Which tool is used to see IL code?
 
-	A. Util.exe
-	B. IL.exe
-	C. GACUtil.exe
-	D. IDASM.EXE 
+	A) Util.exe
+	B) IL.exe
+	C) GACUtil.exe
+	D) IDASM.EXE
 
 
 What is boxing in .net?
 
-	A. Converts value type to object
-	B. Converts reference type to value type
-	C. Converts primitive type to value type
-	D. None of the above
+	A) Converts value type to object
+	B) Converts reference type to value type
+	C) Converts primitive type to value type
+	D) None of the above
 
 
 .Net assembly’s metadata is stored in which file?
 
-	A. .dll
-	B. .exe
-	C. manifest
-	D. core
+	A) .dll
+	B) .exe
+	C) manifest
+	D) core
 
 
 CTS (Common Type System) manages _________.
 
-	A. Communication between multiple languages
-	B. Value types
-	C. Reference types
-	D. All data types in .net
+	A) Communication between multiple languages
+	B) Value types
+	C) Reference types
+	D) All data types in .net
 
 
 Which of the following integral type can hold a value of any size?
 
-	A. Int32
-	B. Double
-	C. Long
-	D. BigInteger
+	A) Int32
+	B) Double
+	C) Long
+	D) BigInteger
 
 
 What is Code Access Security?
 
-	A. It prevents unauthorized access of source code.
-	B. It prevents unauthorized access of resources and operations, and restricts the code to perform particular tasks.
-	C. It prevents unauthorized access of dll and exe.
-	D. None of the above.
+	A) It prevents unauthorized access of source code.
+	B) It prevents unauthorized access of resources and operations, and restricts the code to perform particular tasks.
+	C) It prevents unauthorized access of dll and exe.
+	D) None of the above.
 
 
 Which of the following method notifies garbage collector not to call finalize?
 
-	A. GC.Collect(int)
-	B. GC.Dispose()
-	C. GC.Cancel()
-	D. GC.SuppressFinalize() 
+	A) GC.Collect(int)
+	B) GC.Dispose()
+	C) GC.Cancel()
+	D) GC.SuppressFinalize()
 
 
 Which is the root namespace for fundamental types in .Net framework?
 
-	A. System.Object
-	B. System.Web
-	C. System.IO
-	D. System.File
+	A) System.Object
+	B) System.Web
+	C) System.IO
+	D) System.File
 
 
 Which of the following features are introduced in .Net 3.5
 
-	A. WCF
-	B. WWF
-	C. WPF
-	D. All of the above
+	A) WCF
+	B) WWF
+	C) WPF
+	D) All of the above
 
 
 Which of the followings are the features of .Net 4.5
 
-	A. Portable Class Library
-	B. Parallel Computing 
-	C. .Net for Windows Store Apps
-	D. All of the above
+	A) Portable Class Library
+	B) Parallel Computing
+	C) .Net for Windows Store Apps
+	D) All of the above
 
 
 The code that runs under CLR are called _______.
 
-	A. Managed code
-	B. Unmanaged code
-	C. COM code
-	D. Pin code
+	A) Managed code
+	B) Unmanaged code
+	C) COM code
+	D) Pin code
 
 
 Which of the following is not a valid data type in .Net?
 
-	A. Double
-	B. Int32
-	C. Int16
-	D. MIME
+	A) Double
+	B) Int32
+	C) Int16
+	D) MIME

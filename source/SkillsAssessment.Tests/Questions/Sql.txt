@@ -1,158 +1,158 @@
 ﻿What is normalization?
 
-	A. It is a set of database design rules to minimize redundancy.
-	B. It is a set of rules to normalize database transactions.
-	C. It is a set of rules to improve database performance.
-	D. None of the above
+	A) It is a set of database design rules to minimize redundancy.
+	B) It is a set of rules to normalize database transactions.
+	C) It is a set of rules to improve database performance.
+	D) None of the above
 
 
 ACID stands for _______.
 
-	A. Atomic, Cryptic, Independent, Durable
-	B. Atomicity, Consistency, Isolation, Durability 
-	C. Automatic, Concurrent, Isolation, Durability 
-	D. Atomicity, Consistency, Isolation, Decoupled
+	A) Atomic, Cryptic, Independent, Durable
+	B) Atomicity, Consistency, Isolation, Durability
+	C) Automatic, Concurrent, Isolation, Durability
+	D) Atomicity, Consistency, Isolation, Decoupled
 
 
 What is Primary Key?
 
-	A. Primary keys are unique names of a table.
-	B. Primary keys are integer ids in a table rows.
-	C. Primary keys are unique identifiers for each row in a table.
-	D. None of the above. 
+	A) Primary keys are unique names of a table.
+	B) Primary keys are integer ids in a table rows.
+	C) Primary keys are unique identifiers for each row in a table.
+	D) None of the above.
 
 
 A table can have more than one combination of columns that uniquely identify the row in a table; each combination is called_________.
 
-	A. Foreign Key
-	B. Primary key
-	C. Composite Key
-	D. Candidate Key
+	A) Foreign Key
+	B) Primary key
+	C) Composite Key
+	D) Candidate Key
 
 
 A column that automatically generates numeric values is called __________.
 
-	A. Unique column
-	B. Integer column
-	C. Identity column
-	D. Candidate column
+	A) Unique column
+	B) Integer column
+	C) Identity column
+	D) Candidate column
 
 
 What is the correct order of query operators in a SQL query?
 
-	A. SELECT -> FROM -> OUTER -> WHERE
-	B. FROM -> OUTER -> WHERE -> ON
-	C. SELECT -> FROM -> WHERE -> OUTER
-	D. FROM -> OUTER -> GROUP BY -> WHERE
+	A) SELECT -> FROM -> OUTER -> WHERE
+	B) FROM -> OUTER -> WHERE -> ON
+	C) SELECT -> FROM -> WHERE -> OUTER
+	D) FROM -> OUTER -> GROUP BY -> WHERE
 
 
 What are indexes?
 
-	A. Index speed up the data retrieval 
-	B. Index stores large number of integer values
-	C. Index minimize the data redundancy 
-	D. None of the above. 
+	A) Index speed up the data retrieval
+	B) Index stores large number of integer values
+	C) Index minimize the data redundancy
+	D) None of the above.
 
 
 How many types of indexes in SQL server?
 
-	A. Integer and string
-	B. Unique and non-unique
-	C. Clustered and Nonclustered 
-	D. None of the above
+	A) Integer and string
+	B) Unique and non-unique
+	C) Clustered and Nonclustered
+	D) None of the above
 
 
 RAID stands for ________.
 
-	A. Reduce Array of Independent Disks
-	B. Redundant Array of Independent Disks
-	C. Redundant Automatic Individual Durable
-	D. Redundancy Accelerator Independent Disks
+	A) Reduce Array of Independent Disks
+	B) Redundant Array of Independent Disks
+	C) Redundant Automatic Individual Durable
+	D) Redundancy Accelerator Independent Disks
 
 
 What is the difference between Primary key and Unique key?
 
-	A. Primary key doesn’t allow null value whereas unique key allows multiple null values
-	B. Primary key allows one null value whereas unique key doesn’t allow null value.
-	C. Primary key doesn’t allow null value whereas unique key allows one null value.
-	D. Primary key allows one null value whereas unique key allows multiple null values.
+	A) Primary key doesn’t allow null value whereas unique key allows multiple null values
+	B) Primary key allows one null value whereas unique key doesn’t allow null value.
+	C) Primary key doesn’t allow null value whereas unique key allows one null value.
+	D) Primary key allows one null value whereas unique key allows multiple null values.
 
 
 OLTP stands for _________.
 
-	A. Online Transaction Processing
-	B. Offline Transaction Processing
-	C. Ontime Transaction Program
-	D. Online Timebound Processing
+	A) Online Transaction Processing
+	B) Offline Transaction Processing
+	C) Ontime Transaction Program
+	D) Online Timebound Processing
 
 
 Which of the followings are the types of locks in SQL Server?
 
-	A. Shared locks
-	B. Exclusive locks
-	C. Schema locks
-	D. All of the above
+	A) Shared locks
+	B) Exclusive locks
+	C) Schema locks
+	D) All of the above
 
 
 What are the authentication modes in SQL Server?
 
-	A. Windows mode
-	B. Mixed mode
-	C. All of the above
-	D. None of the above
+	A) Windows mode
+	B) Mixed mode
+	C) All of the above
+	D) None of the above
 
 
 What is a trigger?
 
-	A. A trigger is a SQL procedure that initiates an action when an event (INSERT, DELETE or UPDATE) occurs.
-	B. A trigger is an event that can be raised from Stored Procedures.
-	C. A trigger is a SQL procedure that performs some tasks on accessing db tables.
-	D. A trigger is a procedure which executes when an error occurred.
+	A) A trigger is a SQL procedure that initiates an action when an event (INSERT, DELETE or UPDATE) occurs.
+	B) A trigger is an event that can be raised from Stored Procedures.
+	C) A trigger is a SQL procedure that performs some tasks on accessing db tables.
+	D) A trigger is a procedure which executes when an error occurred.
 
 
 What are the different types of trigger
 
-	A. DDL and DCL
-	B. DDL and DUL
-	C. DML and DTL
-	D. DML and DDL
+	A) DDL and DCL
+	B) DDL and DUL
+	C) DML and DTL
+	D) DML and DDL
 
 
 What are the different types of temporary tables in SQL server?
 
-	A. Indexed and non-index temporary tables
-	B. Global and local temporary tables
-	C. Unique and shared temporary tables
-	D. Small and large temporary tables
+	A) Indexed and non-index temporary tables
+	B) Global and local temporary tables
+	C) Unique and shared temporary tables
+	D) Small and large temporary tables
 
 
 Which of the following is not a valid data type in SQL server
 
-	A. xml
-	B. nvarchar
-	C. money
-	D. blob
+	A) xml
+	B) nvarchar
+	C) money
+	D) blob
 
 
 Which of the followings are valid Transaction levels in SQL Server?
 
-	A. READ COMMITTED
-	B. READ UNCOMMITTED 
-	C. REPEATABLE READ
-	D. All of the above
+	A) READ COMMITTED
+	B) READ UNCOMMITTED
+	C) REPEATABLE READ
+	D) All of the above
 
 
 Which of the following keyword is used to raise an error in stored procedure?
 
-	A. THROW
-	B. THROWERROR
-	C. RAISEERROR
-	D. ERROR
+	A) THROW
+	B) THROWERROR
+	C) RAISEERROR
+	D) ERROR
 
 
 What are the different types of replication available in SQL server?
 
-	A. Snapshot Replication
-	B. Transactional Replication 
-	C. Merge Replication 
-	D. All of the above
+	A) Snapshot Replication
+	B) Transactional Replication
+	C) Merge Replication
+	D) All of the above

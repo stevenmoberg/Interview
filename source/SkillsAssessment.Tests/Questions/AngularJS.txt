@@ -1,184 +1,175 @@
 ﻿How can dependency injection be defined in Angular?
 
-	1) someModule.controller('MyController', ['$scope', 'greeter', function($scope, greeter) { ... }]); 
- 
-	2) someModule.controller('MyController', ['$scope', 'greeter', function('$scope', 'greeter') { ... }]); 
- 
-	3) someModule.controller('MyController', [$scope, greeter, function($scope, greeter) { ... }]); 
- 
-	4) someModule.controller('MyController', function($scope, greeter) { ... }); 
+	A) someModule.controller('MyController', ['$scope', 'greeter', function($scope, greeter) { ... }]);
+	B) someModule.controller('MyController', ['$scope', 'greeter', function('$scope', 'greeter') { ... }]);
+	C) someModule.controller('MyController', [$scope, greeter, function($scope, greeter) { ... }]);
+	D) someModule.controller('MyController', function($scope, greeter) { ... });
 
 
-There are two controllers. 
+There are two controllers.
 A scope variable named "data" is defined inside the AppController. The corresponding page is as follows:
-What will happen when we write something into the input field? 
+What will happen when we write something into the input field?
 
-	Child1	
+	Child1
 		[ input box with ng-model="data" ]
 		{{data}}
 
 	Child2
 		{{data}}
 
-	1) There will be an error because there is no data variable inside ParentController. 
- 
-	2) There won't be an error, but the ParentController's data will be empty. 
- 
-	3) The ParentController's data variable's value will be the same as the input value. 
- 
-	4) None of the mentioned
+	A) There will be an error because there is no data variable inside ParentController.
+	B) There won't be an error, but the ParentController's data will be empty.
+	C) The ParentController's data variable's value will be the same as the input value.
+	D) None of the mentioned
 
 
-Which of the following is true about '$rootScope'? 
+Which of the following is true about '$rootScope'?
 
-	1) The $rootScope is not available to its child scopes. 
- 
-	2) The $rootScope cannot be overridden by its child scopes. 
- 
-	3) $rootScope is the parent of all of the scope variables. 
- 
-	4) $rootScope is the service which set the configuration of urls. 
+	A) The $rootScope is not available to its child scopes.
+	B) The $rootScope cannot be overridden by its child scopes.
+	C) $rootScope is the parent of all of the scope variables.
+	D) $rootScope is the service which set the configuration of urls.
 
 
 AngularJS directives are used in __________.
 
-	1) Model
-	2) View
-	3) Controller
-	4) Module
+	A) Model
+	B) View
+	C) Controller
+	D) Module
 
 Which of the following directive bootstraps AngularJS framework?
 
-	1) ng-init
-	2) ng-app
-	3) ng-controller
-	4) ng-bootstrap
+	A) ng-init
+	B) ng-app
+	C) ng-controller
+	D) ng-bootstrap
 
 Which of the following is a valid AngularJS expression?
 
-	1) {{ 2 + 2 }}
-	2) { 2 + 2 }
-	3) (( 2 + 2 ))
-	4) { (2 + 2) }
+	A) {{ 2 + 2 }}
+	B) { 2 + 2 }
+	C) (( 2 + 2 ))
+	D) { (2 + B. }
 
 Which of the following statements are true?
 
-	1) Expression cannot contain condition, loop or RegEx
-	2) Expression cannot declare a function
-	3) Expression cannot contain comma, void or return keyword
-	4) All of the above
+	A) Expression cannot contain condition, loop or RegEx
+	B) Expression cannot declare a function
+	C) Expression cannot contain comma, void or return keyword
+	D) All of the above
 
 AngularJS directives can be written in HTML element as:
 
-	1) Tag
-	2) Attribute
-	3) Class name
-	4) All of the above
+	A) Tag
+	B) Attribute
+	C) Class name
+	D) All of the above
 
 The ng-model directive is used for __________.
 
-	1) One-way data binding
-	2) Two-way data binding 
-	3) Binding view to controller
-	4) None of the above
+	A) One-way data binding
+	B) Two-way data binding
+	C) Binding view to controller
+	D) None of the above
 
 The ng-bind directive binds ____________.
 
-	1) Data to model
-	2) View to controller
-	3) Model to HTML element
-	4) Model to $scope
+	A) Data to model
+	B) View to controller
+	C) Model to HTML element
+	D) Model to $scope
 
 What is $scope?
 
-	1) It transfers data between a controller and view
-	2) It transfers data between model and controller
-	3) It is a global scope in AngularJS. 
-	4) None of the above
+	A) It transfers data between a controller and view
+	B) It transfers data between model and controller
+	C) It is a global scope in AngularJS.
+	D) None of the above
 
 The ng-change directive must be used with ng-model directives.
 
-	1) True 
-	2) False
-	3) Sometimes
-	4) None of the above
+	A) True
+	B) False
+	C) Sometimes
+	D) None of the above
 
 Which of the following directive allows us to use form?
 
-	1) ng-include
-	2) ng-form
-	3) ng-bind
-	4) ng-attach
+	A) ng-include
+	B) ng-form
+	C) ng-bind
+	D) ng-attach
 
 What is service in AngularJS?
-	
-	1) Service is reusable UI component.
-	2) Service is a reusable JavaScript function.
-	3) Service is data provider
-	4) None of the above
+
+	A) Service is reusable UI component.
+	B) Service is a reusable JavaScript function.
+	C) Service is data provider
+	D) None of the above
 
 AngularJS filters ___________.
 
-	1) Format the data without changing original data
-	2) Filter the data to display on UI
-	3) Fetch the data from remote server 
-	4) Cache the subset of data on the browser
+	A) Format the data without changing original data
+	B) Filter the data to display on UI
+	C) Fetch the data from remote server
+	D) Cache the subset of data on the browser
 
 AngularJS module can be created using ________.
 
-	1) angular.module();
-	2) var myModule = new module();
-	3) module.create();
-	4) angular.create();
+	A) angular.module();
+	B) var myModule = new module();
+	C) module.create();
+	D) angular.create();
 
 Which of the following statements are true?
 
-	1) AngularJS controller maintains application data & behaviour using $scope
-	2) AngularJS controller can be created in separate JS file
-	3) AngularJS controller can be added into module
-	4) All of the above
+	A) AngularJS controller maintains application data & behaviour using $scope
+	B) AngularJS controller can be created in separate JS file
+	C) AngularJS controller can be added into module
+	D) All of the above
 
 Which of the following service is used to retrieve or submit data to the remote server?
 
-	1) $http
-	2) $XMLHttpRequest
-	3) $window
-	4) $get
+	A) $http
+	B) $XMLHttpRequest
+	C) $window
+	D) $get
 
 Which of the following service is used to handle uncaught exceptions in AngularJS?
 
-	1) $errorHandler
-	2) $exception
-	3) $log
-	4) $exceptionHandler
+	A) $errorHandler
+	B) $exception
+	C) $log
+	D) $exceptionHandler
 
 Which of the following module is required for routing?
 
-	1) angular.js
-	2) angular-route.js
-	3) angularRouting.js
-	4) route.js
+	A) angular.js
+	B) angular-route.js
+	C) angularRouting.js
+	D) route.js
 
 Which of the following provider can be used to configure routes?
 
-	1) $routeProvider
-	2) $url
-	3) $rulesProvider
-	4) None of the above
+	A) $routeProvider
+	B) $url
+	C) $rulesProvider
+	D) None of the above
 
 Which of the followings are validation directives?
 
-	1) ng-required
-	2) ng-minlength
-	3) ng-pattern
-	4) All of the above
+	A) ng-required
+	B) ng-minlength
+	C) ng-pattern
+	D) All of the above
 
 Which of the following is a validation css class in AngularJS
 
-	1) ng-valid
-	2) ng-invalid
-	3) ng-pristine
-	4) All of the above
+	A) ng-valid
+	B) ng-invalid
+	C) ng-pristine
+	D) All of the above
 
 
 
@@ -191,7 +182,6 @@ Angular binding inside an image tag src attribute will cause the browser to make
 What ng directive is used on the image tag to stop this behavior
 
 	?
-	
+
 	example: <img src="{{imageUrl}}" /> results in 404
-	
-	
+

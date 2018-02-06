@@ -1,158 +1,158 @@
 ﻿C# class can inherit multiple ________
 
-	A. Class
-	B. Interface
-	C. Abstract class
-	D. Static class
+	A) Class
+	B) Interface
+	C) Abstract class
+	D) Static class
 
 
 Which of the followings are value types in C#?
 
-	A. Int32
-	B. Double
-	C. Decimal
-	D. All of the above
+	A) Int32
+	B) Double
+	C) Decimal
+	D) All of the above
 
 
 Which of the following is a reference type in C#?
 
-	A. String
-	B. Long
-	C. Boolean
-	D. None of the above
+	A) String
+	B) Long
+	C) Boolean
+	D) None of the above
 
 
 What is Nullable type?
 
-	A. It allows assignment of null to reference type.
-	B. It allows assignment of null to value type.
-	C. It allows assignment of null to static class.
-	D. None of the above.
+	A) It allows assignment of null to reference type.
+	B) It allows assignment of null to value type.
+	C) It allows assignment of null to static class.
+	D) None of the above.
 
 
 Struct is a _____.
 
-	A. Reference type
-	B. Value type
-	C. Class type
-	D. String type
+	A) Reference type
+	B) Value type
+	C) Class type
+	D) String type
 
 
 10 > 9 ? "10 is greater than 9” : "9 is greater than 10” is an example of _______
 
-	A. Ternary operator
-	B. Conditional operator
-	C. Greater than operator
-	D. Inverse operator
+	A) Ternary operator
+	B) Conditional operator
+	C) Greater than operator
+	D) Inverse operator
 
 
 Which of the following datatype can be used with enum?
 
-	A. Int
-	B. String
-	C. Boolean
-	D. All of the above
+	A) Int
+	B) String
+	C) Boolean
+	D) All of the above
 
 
 What is indexer?
 
-	A. It allows an instance of a class to be indexed like an array
-	B. It allows enumerator with class
-	C. It creates index for instances of a class.
-	D. None of the above.
+	A) It allows an instance of a class to be indexed like an array
+	B) It allows enumerator with class
+	C) It creates index for instances of a class.
+	D) None of the above.
 
 
 String data type is ______.
 
-	A. Mutable
-	B. Immutable 
-	C. Static
-	D. Value type
+	A) Mutable
+	B) Immutable
+	C) Static
+	D) Value type
 
 
 An array in C# starts with _____ index.
 
-	A. One
-	B. Zero
-	C. -1
-	D. None of the above
+	A) One
+	B) Zero
+	C) -1
+	D) None of the above
 
 
 Which of the following is right way of declaring an array?
 
-	A. int[] intArray = new int[];
-	B. int intArray[] = new int[5];
-	C. int[] intArray = new int[5];
-	D. int[] intArray = new int[]{1, 2, 3, 4, 5};
+	A) int[] intArray = new int[];
+	B) int intArray[] = new int[5];
+	C) int[] intArray = new int[5];
+	D) int[] intArray = new int[]{1, 2, 3, 4, 5};
 
 
 Which of the following is true for ReadOnly variables?
 
-	A. Value will be assigned at runtime.
-	B. Value will be assigned at compile time.
-	C. Value will be assigned when it accessed first time
-	D. None of the above
+	A) Value will be assigned at runtime.
+	B) Value will be assigned at compile time.
+	C) Value will be assigned when it accessed first time
+	D) None of the above
 
 
 Which of the following statement is true?
 
-	A. try block must be followed by catch and finally block.
-	B. try block must be followed by catch or finally block or both.
-	C. try block can include another try block.
-	D. All of the above.
+	A) try block must be followed by catch and finally block.
+	B) try block must be followed by catch or finally block or both.
+	C) try block can include another try block.
+	D) All of the above.
 
 
 Which of the following statement is true?
 
-	A. A finally block may not execute every time
-	B. A return or break statement cannot exit a finally block.
-	C. A finally block can come before catch block.
-	D. Multiple finally block is possible.
+	A) A finally block may not execute every time
+	B) A return or break statement cannot exit a finally block.
+	C) A finally block can come before catch block.
+	D) Multiple finally block is possible.
 
 
 Func and Action are the types of ______.
 
-	A. Utility function
-	B. Delegate
-	C. Event
-	D. Generic class
+	A) Utility function
+	B) Delegate
+	C) Event
+	D) Generic class
 
 
 Return type of Predicate <T>() is always a ______.
 
-	A. Integer 
-	B. String
-	C. Boolean
-	D. Void 
+	A) Integer
+	B) String
+	C) Boolean
+	D) Void
 
 
 A partial class allows ________
 
-	A. Implementation of single class in multiple .cs files.
-	B. Declaration of multiple classes in a single .cs file.
-	C. Implementation of multiple interfaces to single class.
-	D. Multiple class inheritance.
+	A) Implementation of single class in multiple .cs files.
+	B) Declaration of multiple classes in a single .cs file.
+	C) Implementation of multiple interfaces to single class.
+	D) Multiple class inheritance.
 
 
 LINQ stands for ________.
 
-	A. Language Integrated Query
-	B. Local Integration Query
-	C. Language Included Query
-	D. Lazy Integrated Query
+	A) Language Integrated Query
+	B) Local Integration Query
+	C) Language Included Query
+	D) Lazy Integrated Query
 
 
 Data type of a variable declared using var will be assigned at _______.
 
-	A. Runtime
-	B. Compile time
-	C. CLR time
-	D. Application Initialization time.
+	A) Runtime
+	B) Compile time
+	C) CLR time
+	D) Application Initialization time.
 
 
 Which of the following is true for dynamic type in C#?
 
-	A. It allows multiple time declaration of a variable.
-	B. It allows compile time type checking
-	C. It escapes compile time type checking
-	D. None of the above.
+	A) It allows multiple time declaration of a variable.
+	B) It allows compile time type checking
+	C) It escapes compile time type checking
+	D) None of the above.
