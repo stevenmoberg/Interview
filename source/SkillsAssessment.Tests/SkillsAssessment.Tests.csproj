@@ -90,7 +90,16 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="AngularJS\Questions.txt" />
+    <Content Include="Questions\AngularJS.txt" />
+    <Content Include="Questions\CSharp.txt" />
+    <Content Include="Questions\DotNet.txt" />
+    <Content Include="Questions\Javascript.txt" />
+    <Content Include="Questions\JQuery.txt" />
+    <Content Include="Questions\Linq.txt" />
+    <Content Include="Questions\Mvc.txt" />
+    <Content Include="Questions\Sql.txt" />
+    <Content Include="Questions\Wcf.txt" />
+    <Content Include="Questions\WebApi.txt" />
     <Content Include="_readme.txt" />
     <Content Include="Web\_readme.txt" />
   </ItemGroup>

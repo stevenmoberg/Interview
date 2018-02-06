@@ -1,0 +1,157 @@
+﻿Web API supports which of the following protocol?
+
+	A. TCP 
+	B. HTTP 
+	C. Soap
+	D. All of the above
+
+
+Web API supports which of the following request/response data formats by default?
+
+	A. JSON
+	B. XML
+	C. BSON
+	D. All of the above
+
+
+Which of the following .NET framework supports Web API?
+
+	A. .NET 2.0
+	B. .NET 3.0 
+	C. .NET 3.5 
+	D. .NET 4.0
+
+
+Which of the following statement is TRUE?
+
+	A. Web API can be configured using web.config.
+	B. Web API can only be configured by code.
+	C. Web API can be configured using app.config.
+	D. None of the above
+
+
+Web API uses which of the following open-source library for JSON serialization?
+
+	A. Json.NET
+	B. JsonFormatter.NET
+	C. GetJson.NET
+	D. None of the above
+
+
+Web API controller must be derived from __________.
+
+	A. Controller class
+	B. ApiController class
+	C. WebApiController class
+	D. WebController class
+
+
+Which of the following types of routing is supported in Web API 2?
+
+	A. Attribute Routing
+	B. Convention-based Routing
+	C. All of the above
+	D. None of the above
+
+
+Which of the following types are valid response types of Web API 2 action method?
+
+	A. HttpResponseMessage
+	B. IHttpActionResult
+	C. Custom types
+	D. All of the above
+
+
+Which of the following action method names are valid to handle HTTP GET request?
+
+	A. Get
+	B. GetAllStudents
+	C. GetStudent
+	D. all of the above
+
+
+Web API sends which of the following status code on successful execution?
+
+	A. 200
+	B. 201
+	C. 500
+	D. 404
+
+
+Which of the following is a formatter class for JSON?
+
+	A. JsonMediaTypeFormatter
+	B. JsonMediaFormatter
+	C. Json.Net
+	D. None of the above
+
+
+Which of the following property returns all the formatters in Web API?
+
+	A. GlobalConfiguration.Configuration.JsonFormatter
+	B. Configuration.Formatters
+	C. GlobalConfiguration.Formatters
+	D. GlobalConfiguration.Configuration.Formatters
+
+
+Web API Filters are used ____________.
+
+	A. to add an extra logic before or after action method executes
+	B. to provide authentication and authorization.
+	C. to Launch Web API
+	D. to host Web API
+
+
+Web API extract the values of primitive type parameters of an action method from _____ by default.
+
+	A. HTTP Request Body
+	B. HTTP Header
+	C. Message Header
+	D. Query String
+
+
+Web API extract the values of complex type parameters of an action method from _____ by default.
+
+	A. HTTP Request Body
+	B. HTTP Header
+	C. Message Header
+	D. Query String
+
+
+By default, Web API sends HTTP response with which of the following status code for all uncaught exception?
+
+	A. 404 - Not Found
+	B. 500 - Internal Server Error
+	C. 204 - No content.
+	D. None of the above
+
+
+Which of the following is used to check the validity of the model in Web API?
+
+	A. Mode.Valid
+	B. Model.IsValid
+	C. ModelState.IsValid
+	D. ModelState.Valid
+
+
+Web API 2 is supported in _______.
+
+	A. .NET 4.5
+	B. .NET 4.0
+	C. .NET 3.5
+	D. .NET 3.0
+
+
+Which of the following is true?
+
+	A. Web API can be self-host.
+	B. Web API can be host in IIS.
+	C. Web API can be host in any web server that supports .NET Framework.
+	D. All of the above
+	
+Which of the following class is used to send HTTP requests in .NET 4.5?
+
+	A. WebClient
+	B. HttpClient
+	C. MessageClient
+	D. None of the above

@@ -1,0 +1,158 @@
+﻿MVC stands for ______.
+
+	A. Model, Vision & Control 
+	B. Model, View & Controller
+	C. Model, ViewData & Controller
+	D. Model, Data & Controller
+
+
+Which of following is TRUE?
+
+	A. The controller redirects incoming request to model.
+	B. The controller executes an incoming request.
+	C. The controller controls the data.
+	D. The controller render html to view.
+
+
+The model is a _______ .
+
+	A. Shape of data.
+	B. Html content
+	C. Collection of data
+	D. Type of data.
+
+
+Which of the following is a type of view in MVC?
+
+	A. Partial view
+	B. Executable view
+	C. Data view
+	D. Designer view
+
+
+Which of the following is TRUE?
+
+	A. Action method can be static method in a controller class.
+	B. Action method can be private method in a controller class.
+	C. Action method can be protected method in a controller class.
+	D. Action method must be public method in a controller class.
+
+
+Which of the followings are ActionSelectors?
+
+	A. ActionName
+	B. NonAction
+	C. ActionVerbs
+	D. All of the above
+
+
+Which is the default http method for an action method?
+
+	A. HttpPost
+	B. HttpGet
+	C. HttpPut
+	D. HttpDelete
+
+
+Which of the following view file types are supported in MVC?
+
+	A. .cshtml
+	B. .vbhtml
+	C. .aspx
+	D. All of the above
+
+
+HtmlHelper class _________.
+
+	A. Generates html elements
+	B. Generates html view
+	C. Generates html help file
+	D. Generates model data
+
+
+______ attributes can be used for data validation in MVC.
+
+	A. DataAnnotations
+	B. Fluent API
+	C. DataModel
+	D. HtmlHelper
+
+
+Which of the following view contains common parts of UI?
+
+	A. Partial view
+	B. Html View
+	C. Layout view
+	D. Razor view
+
+
+Which of the following methods are used to render partial view?
+
+	A. Html.Partial()
+	B. Html.RenderPartial()
+	C. Html.RenderAction()
+	D. All of the above
+
+
+How to transfer data from controller to view?
+
+	A. Using model object
+	B. Using ViewBag
+	C. Using ViewData
+	D. All of the above
+
+
+TempData is useful to _______.
+
+	A. Transfer data from view to controller
+	B. Transfer data from one view to another view
+	C. Transfer data from controller to controller
+	D. Store data permanently.
+
+
+What is action filters?
+
+	A. Action filter executes before and after action method executes.
+	B. Action filter executes before action method executes.
+	C. Action filter executes after action method executes.
+	D. Action filter executes parallel to action method.
+
+
+Bundling allows __________.
+
+	A. Loading of multiple images in single request.
+	B. Loading of multiple view files in single request.
+	C. Loading of caching of multiple script files.
+	D. Loading of multiple script files in single request.
+
+
+Area allows us to ____________.
+
+	A. Partition large application into smaller units.
+	B. Separate Mode, View and Controller folders.
+	C. Partition View folder of large application into multiple view folders
+	D. All of the above
+
+
+Which of the following is a default route pattern in MVC?
+
+	A. "/{action}/{controller}/{id}"
+	B. "{controller}/{id}"
+	C. "{controller}/{action}/{id}"
+	D. "{controller}/{action}”
+
+
+Which of the following default class is used to configure all the routes in MVC?
+
+	A. FilterConfig
+	B. RegisterRouteConfig
+	C. RouteConfig
+	D. MVCRoutes
+
+
+Which of the following method of html helper generates html control based on the data type of specified property?
+
+	A. Html.TextBox
+	B. Html.Password
+	C. Html.Editor
+	D. Html.Display

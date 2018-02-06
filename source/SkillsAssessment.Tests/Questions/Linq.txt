@@ -1,0 +1,164 @@
+﻿The full form of LINQ is _______.
+
+	A. Link-List Inner Query
+	B. Language-Integrated Query
+	C. Linked-Integrated Query
+	D. Lazy Integration Query
+
+
+LINQ supports ________ syntax.
+
+	A. C# and F#
+	B. VB and F#
+	C. C# and VB
+	D. All of the above
+
+
+Which of the following supports LINQ?
+
+	A. Object collection
+	B. XML Document
+	C. Entity Framework
+	D. All of the above
+
+
+A class must implement ____________ interface in order to provide querying facility using LINQ.
+
+	A. IEnumerator or IQueryable
+	B. IEnumerable or IQueryable
+	C. Enumerable or Queryable
+	D. None of the above
+	
+
+Which of the following statement is TRUE?
+
+	A. LINQ API is a bunch of extension methods included in System.Linq.Enumerable and System.Linq.Queryable class.
+	B. LINQ API is a bunch of abstract methods included in Enumerable and Queryable classes.
+	C. LINQ API is bunch of queries written in C# and VB.
+	D. None of the above
+
+
+Which of the following types of syntax LINQ supports?
+
+	A. Query syntax
+	B. Method syntax
+	C. All of the above
+	D. None of the above
+
+
+var teenAgerStudent = from s in studentList
+      where s.Age > 12 && s.Age < 20
+      select s;
+      
+      The above query is an example of ________ syntax.
+
+	A. Method syntax
+	B. Query syntax
+	C. C#
+	D. VB
+
+
+var teenAgerStudents = studentList.Where(s => s.Age > 12 && s.Age < 20).ToList<Student>();
+
+      The above query is an example of _______ syntax.
+
+	A. Query syntax
+	B. Method syntax
+	C. SQL
+	D. All of the above
+
+
+Which of the following statement is TRUE?
+
+	A. The lambda expression is nothing but extension method.
+	B. The lambda expression is a shorter way of representing anonymous methods.
+	C. The lambda expression is a style of representing dynamic types.
+	D. The lambda expression is nothing but static delegate method.
+
+
+s => s.Age > 12 && s.Age < 20; is an example of _______.
+
+	A. Expression tree
+	B. LINQ query
+	C. C# condition
+	D. Lambda expression
+
+
+Lambda expression can be invoked like a delegate.
+
+	A. True
+	B. False
+	C. Sometime true
+	D. Sometime false.
+
+
+OrderByDescending is NOT supported in _______.
+
+	A. Query syntax
+	B. Method syntax
+	C. Lambda expression
+	D. VB Method syntax.
+
+
+Which of the following standard query operator returns the differences between the two collections?
+
+	A. Distinct
+	B. Except
+	C. Intersect
+	D. Union
+
+
+Which of the following standard query operator returns the unique elements from two collections?
+
+	A. Distinct
+	B. Except
+	C. Intersect
+	D. Union
+
+
+Which of the following standard query operator returns the common elements from two collections?
+
+	A. Distinct
+	B. Except
+	C. Intersect
+	D. Union
+	
+
+Which of the following is TRUE?
+
+	A. An Expression compiles into executable code.
+	B. An Expression compiles into expression tree.
+	C. An expression compiles into native code.
+	D. An Expression compiles into machine code.
+
+
+Expression tree is _________.
+
+	A. Tree of expression in C# or VB.
+	B. Executable tree structure.
+	C. In-memory representation of lambda expression.
+	D. Binary tree like data structure for better LINQ support.
+
+ 
+Which of the following operators executes LINQ query immediately and gets the result?
+
+	A. ‘To’ operators
+	B. Casting operators
+	C. Grouping operators
+	D. Joining operators
+
+
+What is the difference between First and FirstOrDefault?
+
+	A. First throws an exception whereas FirstOrDefault returns default value, if no elements found for specified criteria.
+	B. First returns NULL whereas FirstOrDefault returns default value, if no elements found for specified criteria.
+	C. First throws an exception whereas FirstOrDefault returns NULL, if no elements found for specified criteria.
+	D. First returns void whereas FirstOrDefault returns NULL value, if no elements found for specified criteria.
+
+
+Third party data providers must implement ________ interface, in order to support LINQ.
+
+	A. IEnumerable
+	B. IQueryable
+	C. ICollection
+	D. IEnumerator

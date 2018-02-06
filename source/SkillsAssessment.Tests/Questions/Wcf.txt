@@ -1,0 +1,157 @@
+﻿WCF stands for_______ .
+
+	A. Windows Communication Framework
+	B. Windows Communication Foundation
+	C. Windows Connection Framework
+	D. Windows Com Framework
+
+
+Which type of contract is applicable to interface in WCF?
+
+	A. Operation contract
+	B. Message contract
+	C. Service contract
+	D. Data contract
+
+
+WCF endpoint includes ________.
+
+	A. Address
+	B. Binding
+	C. Contract
+	D. All of the above.
+
+
+Which of the security modes are supported in WCF?
+
+	A. Message 
+	B. Transport 
+	C. TrasportWithMessageCredential
+	D. All of the above
+
+
+One Service contract can inherit another service contract.
+
+	A. False
+	B. True
+	C. Some time
+	D. Not Possible
+
+
+Which utility can be used to create WSDL from WCF service?
+
+	A. Wcf.exe
+	B. Svc.exe
+	C. ILDASM.exe
+	D. SvcUtil.exe
+
+
+Which of the message exchange pattern is NOT supported in WCF?
+
+	A. Request-reply
+	B. One-way
+	C. Duplex
+	D. Multi-way
+
+
+__________ http binding is used for duplex contracts.
+
+	A. basicHttpBinding
+	B. netHttpBinding
+	C. wsHttpBinding
+	D. WSDualHttpBinding
+
+
+MessageContract can be applied to _______.
+
+	A. Interface
+	B. Class
+	C. Method
+	D. Service 
+
+
+_________ maps data contracts to SOAP envelopes.
+
+	A. DataContract
+	B. OperationContract
+	C. MessageContract
+	D. ServiceContract
+
+
+Which type of exception can be thrown from WCF service?
+
+	A. Exception
+	B. SystemException
+	C. ApplicationException
+	D. FaultException
+
+
+You need to implement which interface for global exception handling in WCF?
+
+	A. IWCFException
+	B. IErrorHandler
+	C. IExceptionHandler
+	D. None of the above
+
+
+You need to configure which type of behaviour to return exception detail from WCF service?
+
+	A. ServiceBehavior
+	B. OperationBehavior
+	C. MessageBehavior
+	D. EndpointBehavior
+
+
+Which of the following client credential 	type can be used with WCF security?
+
+	A. Username
+	B. IssuedToken
+	C. Certificate 
+	D. All of the above
+	
+Which of the following instancing behaviour is not supported in WCF?
+
+	A. Single
+	B. PerCall
+	C. PerSession
+	D. Static
+
+
+Service throttling behavior is used to configure maximum number of ________.
+
+	A. Concurrent sessions
+	B. Concurrent calls
+	C. Concurrent instances
+	D. All of the above
+
+
+Which of the following Concurrency mode is not supported in WCF?
+
+	A. Single
+	B. Dual
+	C. Multiple
+	D. Reentrant
+
+
+Which of the following statement is TRUE?
+
+	A. It is possible to write WCF proxy manually.
+	B. It is not possible to write WCF proxy manually.
+	C. Wcf.exe utility is used to create a wcf proxy.
+	D. None of the above
+
+
+Which of the following must be implemented in order to create WCF proxy manually?
+
+	A. ServiceBase
+	B. ClientBase
+	C. ProxyBase
+	D. WCFBase
+
+
+WCF service can be host in________.
+
+	A. Self 
+	B. IIS
+	C. Window service
+	D. All of the above

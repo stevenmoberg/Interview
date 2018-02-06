@@ -1,0 +1,168 @@
+﻿JavaScript is ECMAScript
+
+	A. False
+	B. True
+	C. May be
+	D. All of the above
+
+
+JavaScript written under which of the following tag?
+
+	A. <JavaScript></JavaScript>
+	B. <script></script>
+	C. <code></code>
+	D. <head></head>
+
+
+Variable in JavaScript declared with which of the following keyword?
+
+	A. new
+	B. int
+	C. string
+	D. var
+
+
+Which of the followings are primitive data types in JavaScript?
+
+	A. String
+	B. Number
+	C. Boolean
+	D. All of the above
+
+
+Which of the following is NOT a JavaScript object?
+
+	A. var obj = {};
+	B. var obj = { name: "Steve"};
+	C. var obj = { name = "Steve"};
+	D. var lbj = new Object();
+
+
+Which of the following is NOT a correct way of declaring an array in JavaScript?
+
+	A. var arr = [1, "two", 3 , 4 ];
+	B. var arr = new Array();
+	C. var[] arr = new Number(){5];
+	D. None of the above
+
+
+What is null in JavaScript?
+
+	A. Null means empty string value.
+	B. Null means absence of a value.
+	C. Null means unknown value.
+	D. Null means zero value.
+
+
+Which of the following is a valid JavaScript function?
+
+	A. var myFunc = function myFunc(){ };
+	B. function myFunc(){ };
+	C. function(){ };
+	D. function myFunc = { };
+
+
+Which of the following object represent parameters of current function inside any function?
+
+	A. Global
+	B. arguments
+	C. this
+	D. Object
+
+
+A function can be assigned to a variable in JavaScript.
+
+	A. True
+	B. False
+	C. Some time
+	D. None of the above
+
+
+Which of the following is an example of anonymous function in JavaScript?
+
+	A. var myFunc = function(){ };
+	B. function(){ };
+	C. var myFunc = (){ };
+	D. All of the above.
+
+
+What will 1 == "1" return?
+
+	A. True
+	B. False
+	C. 0
+	D. 1
+
+
+What is eval() in JavaScript?
+
+	A. It executes specified string as JavaScript code.
+	B. It parses string as JavaScript code.
+	C. It executes server side code in JavaScript.
+	D. It displays popup message.
+
+
+How to handle error in JavaScript?
+
+	A. By writing error proof code.
+	B. By using eval().
+	C. By using if-else block
+	D. By using try, catch & finally block.
+
+
+How to apply strict mode in JavaScript?
+
+	A. "strict mode"
+	B. "strict"
+	C. "use strict"
+	D. "apply strict"
+
+
+A variable declared without var keyword inside a function will become _______ variable.
+
+	A. local
+	B. global
+	C. block 
+	D. undefined 
+
+
+Which of the following is not a valid keyword in JavaScript?
+
+	A. function
+	B. this
+	C. class
+	D. try
+
+
+What will be the output of the following JavaScript code?
+
+      x = 1;
+      console.log('x = ' + x);
+      var x;
+
+	A. x = 1
+	B. error: x is undefined
+	C. x = undefined
+	D. x = null;
+
+
+What will be the output of the following JavaScript code?
+
+      for(var x = 1; x < 5; x++)
+      console.log(x);
+
+	A. 11111
+	B. 12345
+	C. 1234
+	D. 5555
+
+
+What will be the output of the following JavaScript code?
+
+      var x = 0
+      do{ console.log(x) }while(x > 0)
+
+	A. 0
+	B. null
+	C. 1
+	D. No output
