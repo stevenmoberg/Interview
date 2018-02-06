@@ -11,23 +11,25 @@
 <body ng-app="app">
     <main role="main">
         <div class="jumbotron">
-            <h1>Moody's - Angular Skills Assessment</h1>
-            <p class="lead">Software Engineering</p>
+            <h1>Moody's Skills Assessment</h1>
         </div>
     </main>
-    <div class="container">
-        <div ng-controller="InterviewInfoController">
-            <h1>Interview: {{interviewee}} on {{interviewDate}}</h1>
-        </div>
+    <div class="container" ng-controller="SkillsAssessmentController">
+        <h1>{{role}} - {{skill}}</h1>
+        <h3>{{name}} on {{date}}</h3>
+        <br/>
+        Witnessed By:
+        <!-- output witnesses here -->
+
 
         <hr />
         <h1>Tasks</h1>
         <ol>
-            <li>Create an InterviewInfoController to output your name and todays date formatted in MM/dd/yy.</li>
-            <li>Outputs a unordered list of interviewers's name and position</li>
+            <li>Create a SkillsAssessmentController to output the assessment variables listed above, format date in MM/dd/yy.</li>
+            <li>Outputs an unordered list of witness names and positions, order by name</li>
             <li>Add ng directory to stop showing unstyled angular template</li>
             <li>Refactor angular template into a directive with an isolated scope</li>
-            <li>Refactor this task list into a directive called InterviewTasks</li>
+            <li>Refactor this task list into a directive called AssessmentTasks</li>
         </ol>
     </div>
 

@@ -21,7 +21,7 @@ namespace SkillsAssessment.Tests.CSharp
 
         private double Average(int x, int y)
         {
-            // {code} - fix this method
+            // {code - fix this method}
             return x + y / 2;
         }
     }
