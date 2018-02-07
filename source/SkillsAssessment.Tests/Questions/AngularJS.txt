@@ -172,6 +172,9 @@ Which of the following is a validation css class in AngularJS
 	D) All of the above
 
 
+Explain the difference between ng-hide and ng-show
+
+	?
 
 
 What ng directive is used to stop displaying the angular template on page load before angular loads

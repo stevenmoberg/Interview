@@ -10,17 +10,17 @@ namespace SkillsAssessment.Tests.CSharp
         public void Should_Print_ZigZag()
         {
             // Arrange;
-            var text = "MOODYSSkillsAssessment";
+            var text = "MOODYSINTERVIEW";
 
             // Act
             // Assert
-            Assert.Equals("MYTIODSNEVEOIRW", ZigZag(text, 3));
-            Assert.Equals("MIIOSNVEOYTRWDE", ZigZag(text, 4));
+            Assert.AreEqual("MYTIODSNEVEOIRW", ZigZag(text, 3));
+            Assert.AreEqual("MIIOSNVEOYTRWDE", ZigZag(text, 4));
         }
 
 
         // given - 3 rows
-        // MOODYSSkillsAssessment
+        // MOODYSINTERVIEW
         // -------------------
         // M   Y   T   I
         // O D S N E V E 
@@ -30,7 +30,7 @@ namespace SkillsAssessment.Tests.CSharp
         // MYTIODSNEVEOIRW
 
         // given - 4 rows
-        // MOODYSSkillsAssessment
+        // MOODYSINTERVIEW
         // -------------------
         // M     I     I
         // O   S N   V E

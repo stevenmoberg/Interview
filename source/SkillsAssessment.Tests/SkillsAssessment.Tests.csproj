@@ -65,6 +65,9 @@
     <Compile Include="CSharp\Challenge_2Sum.cs" />
     <Compile Include="CSharp\Challenge_3Sum.cs" />
     <Compile Include="CSharp\Challenge_4Sum.cs" />
+    <Compile Include="CSharp\Challenge_InterleavingString.cs" />
+    <Compile Include="CSharp\Challenge_RemoveDuplicateFromLinkedList.cs" />
+    <Compile Include="CSharp\Challenge_RotateImage.cs" />
     <Compile Include="CSharp\Test00_HelloWorld.cs" />
     <Compile Include="CSharp\Test02_Average2Numbers.cs" />
     <Compile Include="CSharp\Test01_PassingParameters.cs" />

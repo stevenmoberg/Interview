@@ -16,7 +16,7 @@ namespace SkillsAssessment.Tests.CSharp
             var actual = Average(1, 2);
 
             // Assert
-            Assert.Equals(expected, actual);
+            Assert.AreEqual(expected, actual);
         }
 
         private double Average(int x, int y)

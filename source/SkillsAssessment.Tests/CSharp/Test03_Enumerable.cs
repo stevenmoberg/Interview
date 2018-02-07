@@ -17,7 +17,7 @@ namespace SkillsAssessment.Tests.CSharp
             var actual = SumEvenMumbers(numbers); 
 
             // Assert
-            Assert.Equals(30, actual);
+            Assert.AreEqual(30, actual);
         }
 
         int SumEvenMumbers(IEnumerable<int> values)
