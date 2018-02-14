@@ -1,0 +1,14 @@
+﻿What is the "box" model
+
+	?
+
+
+What is the difference between padding and maring
+
+	?
+
+
+What is responsive design and how is this accomplished in CSS
+
+	?
+
