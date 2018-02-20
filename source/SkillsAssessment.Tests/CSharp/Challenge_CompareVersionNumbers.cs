@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 namespace SkillsAssessment.Tests.CSharp
 {
     [TestClass]
-    public class Challenge_Compare_VersionNumbers
+    public class Challenge_CompareVersionNumbers
     {
         [TestMethod]
         public void Should_Compare_VersionNumbers()

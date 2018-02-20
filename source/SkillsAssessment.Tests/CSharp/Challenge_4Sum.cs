@@ -12,35 +12,28 @@ namespace SkillsAssessment.Tests.CSharp
         public void Should_Find_UniqueSumOf4()
         {
             // Arrange
-            var signatures = new List<string>();
-            var signaturesExpected = new string[] { "-1,0,0,1", "-2,-1,-1,2", "-2,0,0,2" };
-            var values = new int[] { 1, 0, -1, 0 -2, 2 };
-            var target = 0;
+            var values = new int[] { 1, 0, -1, 0, -2, 2 };
 
             // Act
-            var results = FourSum(values, target).ToArray();
+            var results_0 = FourSum(values, 0).ToArray();
 
             // Assert
-            foreach(var set in results)
-            {
-                var sorted = string.Join(",", set.OrderBy(x => x));
-                // set has 3 items
-                Assert.AreEqual(4, set.Length);
-                // set sums to zero
-                Assert.AreEqual(target, set.Sum());
-                // set is unique
-                CollectionAssert.DoesNotContain(signatures, sorted);
-                signatures.Add(sorted);
-            }
+            var actual = results_0.Select(x => string.Join(",", x.OrderBy(v => v))).OrderBy(x => x, StringComparer.Ordinal).ToArray();
+            var expected = new string[] { "-1,0,0,1", "-2,-1,-1,2", "-2,0,0,2" };
 
-            var signaturesOrdered = signatures.OrderBy(x => x).ToArray();
-            CollectionAssert.AreEqual(signaturesExpected, signaturesOrdered);
+            CollectionAssert.AreEqual(expected, actual);
         }
 
-        public IEnumerable<int[]> FourSum(int[] nums, int target)
+        /// <summary>
+        /// Return all unique quadruplets in the array which gives the sum of the target.
+        /// </summary>
+        /// <param name="numbers"></param>
+        /// <param name="target"></param>
+        /// <returns></returns>
+        public IEnumerable<int[]> FourSum(int[] numbers, int target)
         {
-            // return all unique quadruplets in the array which gives the sum of the target.
-            yield break;
+            throw new NotImplementedException("code solution here");
         }
+
     }
 }

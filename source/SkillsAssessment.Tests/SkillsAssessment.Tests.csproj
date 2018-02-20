@@ -68,7 +68,7 @@
     <Compile Include="CSharp\Challenge_2Sum.cs" />
     <Compile Include="CSharp\Challenge_3Sum.cs" />
     <Compile Include="CSharp\Challenge_4Sum.cs" />
-    <Compile Include="CSharp\Challenge_Compare_VersionNumbers.cs" />
+    <Compile Include="CSharp\Challenge_CompareVersionNumbers.cs" />
     <Compile Include="CSharp\Challenge_EvaluateReversePolishNotation.cs" />
     <Compile Include="CSharp\Challenge_GroupAnagrams.cs" />
     <Compile Include="CSharp\Challenge_InterleavingString.cs" />

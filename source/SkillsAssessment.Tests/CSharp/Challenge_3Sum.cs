@@ -12,34 +12,26 @@ namespace SkillsAssessment.Tests.CSharp
         public void Should_Find_UniqueSumOf3()
         {
             // Arrange
-            var signatures = new List<string>();
-            var signaturesExpected = new string[] { "-1,0,1", "-1,-1,2" };
             var values = new int[] { -1, 0, 1, 2, -1, -4 };
 
             // Act
-            var zeros = ThreeSum(values).ToArray();
+            var results = ThreeSum(values).ToArray();
 
             // Assert
-            foreach(var set in zeros)
-            {
-                var sorted = string.Join(",", set.OrderBy(x => x));
-                // set has 3 items
-                Assert.AreEqual(3, set.Length);
-                // set sums to zero
-                Assert.AreEqual(0, set.Sum());
-                // set is unique
-                CollectionAssert.DoesNotContain(signatures, sorted);
-                signatures.Add(sorted);
-            }
+            var actual = results.Select(x => string.Join(",", x.OrderBy(v => v))).OrderBy(x => x).ToArray();
+            var expected = new string[] { "-1,0,1", "-1,-1,2" };
 
-            var signaturesOrdered = signatures.OrderBy(x => x).ToArray();
-            CollectionAssert.AreEqual(signaturesExpected, signaturesOrdered);
+            CollectionAssert.AreEqual(expected, actual);
         }
 
+        /// <summary>
+        /// Return all unique triplets in the array which gives the sum of zero.
+        /// </summary>
+        /// <param name="nums"></param>
+        /// <returns></returns>
         public IEnumerable<int[]> ThreeSum(int[] nums)
         {
-            // return all unique triplets in the array which gives the sum of zero.
-            yield break;
+            throw new NotImplementedException("code method body here");
         }
     }
 }
