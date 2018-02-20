@@ -77,6 +77,7 @@
     <Content Include="css\quiz.css" />
     <Content Include="demo\bootstrap.html" />
     <Content Include="js\quiz.js" />
+    <Content Include="demo\dirty.html" />
     <Content Include="packages.config" />
     <Content Include="quiz\questions\AngularJS\dependency_injection.yaml" />
     <Content Include="quiz\questions\AngularJS\quiz.yaml" />
@@ -102,7 +103,6 @@
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
