@@ -47,6 +47,9 @@
     <Reference Include="Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions">
       <HintPath>..\packages\MSTest.TestFramework.1.2.0\lib\net45\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll</HintPath>
     </Reference>
+    <Reference Include="Newtonsoft.Json, Version=11.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.11.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Drawing" />
     <Reference Include="System.Net.Http" />
@@ -65,9 +68,14 @@
     <Compile Include="CSharp\Challenge_2Sum.cs" />
     <Compile Include="CSharp\Challenge_3Sum.cs" />
     <Compile Include="CSharp\Challenge_4Sum.cs" />
+    <Compile Include="CSharp\Challenge_EvaluateReversePolishNotation.cs" />
+    <Compile Include="CSharp\Challenge_GroupAnagrams.cs" />
     <Compile Include="CSharp\Challenge_InterleavingString.cs" />
+    <Compile Include="CSharp\Challenge_LengthOfLastWord.cs" />
+    <Compile Include="CSharp\Challenge_Merge_Intervals.cs" />
     <Compile Include="CSharp\Challenge_RemoveDuplicateFromLinkedList.cs" />
     <Compile Include="CSharp\Challenge_RotateImage.cs" />
+    <Compile Include="CSharp\Challenge_SpiralMatrix.cs" />
     <Compile Include="CSharp\Test00_HelloWorld.cs" />
     <Compile Include="CSharp\Test02_Average2Numbers.cs" />
     <Compile Include="CSharp\Test01_PassingParameters.cs" />
@@ -87,6 +95,7 @@
     <Compile Include="CSharp\Challenge_Soduko.cs" />
     <Compile Include="Tools\AssertExtensions.cs" />
     <Compile Include="Tools\BaseTest.cs" />
+    <Compile Include="Tools\JsonHelper.cs" />
     <Compile Include="Tools\TestExtensions.cs" />
     <Compile Include="Tools\TestHelper.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

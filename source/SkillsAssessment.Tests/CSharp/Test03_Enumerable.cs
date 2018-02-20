@@ -14,13 +14,13 @@ namespace SkillsAssessment.Tests.CSharp
             var numbers = new int[] { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
 
             // Act
-            var actual = SumEvenMumbers(numbers); 
+            var actual = SumEvenNumbers(numbers);
 
             // Assert
             Assert.AreEqual(30, actual);
         }
 
-        int SumEvenMumbers(IEnumerable<int> values)
+        int SumEvenNumbers(IEnumerable<int> values)
         {
             // {code} - using Linq to sum all even numbers
             return 0;

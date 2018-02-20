@@ -7,7 +7,7 @@ namespace SkillsAssessment.Tests.CSharp
     public class Test04 : BaseTest
     {
         [TestMethod]
-        public void Should_Create_Operator_Overload()
+        public void Should_Create_OperatorOverload()
         {
             // Arrange
             var item2 = new OpTest(11.1);

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,7 +9,17 @@ namespace SkillsAssessment.Tests
 {
     public static class AssertEx
     {
-        // cannot add extension method to the global Assert object
-        // add assert helpers here
+        /// <summary>
+        /// Deserialize and compare JSON
+        /// </summary>
+        /// <param name="expected"></param>
+        /// <param name="actual"></param>
+        public static void AreEqual(object expected, object actual)
+        {
+            var exp = JsonHelper.ToJson(expected, true);
+            var act = JsonHelper.ToJson(actual, true);
+
+            Assert.AreEqual(exp, act);
+        }
     }
 }

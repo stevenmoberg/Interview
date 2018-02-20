@@ -1,0 +1,5 @@
+<Playlist Version="1.0">
+	<Add Test="SkillsAssessment.Tests.CSharp.Test02.Should_Calculate_Average_For_Two_Numbers" />
+	<Add Test="SkillsAssessment.Tests.CSharp.Test03.Should_Sum_Even_Numbers" />
+	<Add Test="SkillsAssessment.Tests.CSharp.Challenge_FizzBuzz.Should_Print_FizzBuzz" />
+</Playlist>
