@@ -1,0 +1,29 @@
+﻿images: []
+problem_type: definition
+difficulty: "3"
+reference: "2.1"
+source: "https://en.wikipedia.org/wiki/Precision_and_recall"
+question: |
+	How can dependency injection be defined in Angular?
+answer_type: Single choice
+answers:
+ - correctness: '+'
+   answer: someModule.controller('MyController', ['$scope', 'greeter', function($scope, greeter) { ... }]);
+   explanation: string values passed in array syntax are not replaced during minification
+ - correctness: '-'
+   answer: someModule.controller('MyController', ['$scope', 'greeter', function('$scope', 'greeter') { ... }]);
+   explanation: results in scope and greeter to be string litterals
+ - correctness: '-'
+   answer: someModule.controller('MyController', [$scope, greeter, function($scope, greeter) { ... }]);
+   explanation: $scope and greeter are not globally available when defining the controller function
+ - correctness: '-'
+   answer: someModule.controller('MyController', function($scope, greeter) { ... });
+   explanation: during minification $scope and greeter will be replaced and angular will not know what to inject
+workings: |
+  Working
+hint: |
+  Blah
+comments: |
+  Tests the student's knowledge of ...
+  <br>
+  Complexity 5 because

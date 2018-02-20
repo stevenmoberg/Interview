@@ -1,0 +1,8 @@
+﻿title: AngularJS Quiz
+url: "http://willprice.github.io/ml-quiz/"
+candidate_number:
+  - "64496"
+  - "54321"
+"1": !include dependency_injection.yaml
+"2": !include quiz/q2.yaml
+"3": !include quiz/q3.yaml

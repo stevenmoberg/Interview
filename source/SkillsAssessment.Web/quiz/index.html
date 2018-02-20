@@ -1,0 +1,104 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link rel="stylesheet" href="/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="/css/quiz.css" />
+</head>
+<body>
+    <div id="post-10" class="post-10 post type-post status-publish format-standard hentry category-distance-models category-quiz">
+        <h2 class="entry-title post-title">
+            <a href="#" rel="bookmark">
+                Machine Learning Quiz
+            </a>
+        </h2>
+
+        <!-- end of .post-meta -->
+        <div class="post-entry">
+            <div class="wpProQuiz_content" id="wpProQuiz_2">
+                <h2>%(quizTitle)s</h2>
+
+
+                <div style="display: none;" class="wpProQuiz_results">
+                    <h4 class="wpProQuiz_header">
+                        Results
+                    </h4>
+                    <p class="wpProQuiz_time_limit_expired" style="display: none;">
+                        Time has elapsed
+                    </p>
+                    <div class="wpProQuiz_catOverview" style="display:none;">
+                        <h4>
+                            Categories
+                        </h4>
+                        <div style="margin-top: 10px;">
+                            <ol>
+                                <li data-category_id="0">
+                                    <span class="wpProQuiz_catName">
+                                        Not categorized
+                                    </span>
+                                    <span class="wpProQuiz_catPercent">
+                                    </span>
+                                </li>
+                                <li data-category_id="4">
+                                    <span class="wpProQuiz_catName">
+                                        Distance
+                                    </span>
+                                    <span class="wpProQuiz_catPercent">
+                                    </span>
+                                </li>
+                            </ol>
+                        </div>
+                    </div>
+                    <div>
+                        <ul class="wpProQuiz_resultsList">
+                            <li style="display: none;">
+                                <div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div style="margin: 10px 0px;">
+                        <input class="wpProQuiz_button" type="button" name="restartQuiz" value="Restart quiz">
+                        <input class="wpProQuiz_button" type="button" name="reShowQuestion" value="View questions">
+                    </div>
+                </div>
+                <div class="wpProQuiz_quizAnker" style="display: none;">
+                </div>
+                <div style="display: none;" class="wpProQuiz_quiz">
+                    <ol class="wpProQuiz_list">%(questions)s</ol>
+                </div>
+            </div>
+            <script type="text/javascript">
+                jQuery(document).ready(function ($) {
+                    $('#wpProQuiz_2').wpProQuizFront({
+                        quizId: 2,
+                        mode: 1,
+                        globalPoints: 8,
+                        timelimit: 0,
+                        resultsGrade: [0],
+                        bo: 1031,
+                        qpp: 0,
+                        catPoints: { "4": 1, "0": 7 }
+                        ,
+                        formPos: 0,
+                        lbn: "Finish quiz",
+                        json: % (answersJSON)s
+                    }
+                    );
+                }
+                );
+            </script>
+        </div>
+        <!-- end of .post-entry -->
+        <!-- end of .post-data -->
+        <div class="post-edit">
+        </div>
+    </div>
+    <!-- end of #post-10 -->
+
+
+    <script src="/js/jquery-slim.min.js"></script>
+    <script src="/js/quiz.js"></script>
+</body>
+</html>
