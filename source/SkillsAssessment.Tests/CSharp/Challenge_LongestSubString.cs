@@ -6,6 +6,7 @@ namespace SkillsAssessment.Tests.CSharp
     [TestClass]
     public class Challenge_LongestSubString
     {
+        [Medium]
         [TestMethod]
         public void Should_Find_LongestSubstring()
         {
@@ -14,10 +15,14 @@ namespace SkillsAssessment.Tests.CSharp
             Assert.AreEqual("wke", LongestSubstring("pwwkew"));
         }
 
+        /// <summary>
+        /// Given a string, find the longest substring without repeating characters.
+        /// </summary>
+        /// <param name="s"></param>
+        /// <returns></returns>
         public string LongestSubstring(string s)
         {
-            // Given a string, find the longest substring without repeating characters.
-            return string.Empty;
+            throw new NotImplementedException("code solution here");
         }
     }
 }

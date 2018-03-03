@@ -6,6 +6,7 @@ namespace SkillsAssessment.Tests.CSharp
     [TestClass]
     public class Challenge_PhoneNumbers
     {
+        [Medium]
         [TestMethod]
         public void Should_Format_PhoneNumbers()
         {
@@ -18,6 +19,11 @@ namespace SkillsAssessment.Tests.CSharp
             Assert.AreEqual("", "456789");
         }
 
+        /// <summary>
+        /// Clean and format valid phone number
+        /// </summary>
+        /// <param name="phone"></param>
+        /// <returns></returns>
         string Format(string phone)
         {
             // format phone number as (xxx) xxx-xxxx

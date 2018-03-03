@@ -10,6 +10,7 @@ namespace SkillsAssessment.Tests.CSharp
     [TestClass]
     public class Challenge_LengthOfLastWord
     {
+        [Easy]
         [TestMethod]
         public void Should_Calculate_Length_of_Last_Word()
         {

@@ -72,21 +72,20 @@
     <Compile Include="CSharp\Challenge_EvaluateReversePolishNotation.cs" />
     <Compile Include="CSharp\Challenge_GroupAnagrams.cs" />
     <Compile Include="CSharp\Challenge_InterleavingString.cs" />
+    <Compile Include="CSharp\Challenge_Intro.cs" />
     <Compile Include="CSharp\Challenge_LengthOfLastWord.cs" />
     <Compile Include="CSharp\Challenge_Merge_Intervals.cs" />
     <Compile Include="CSharp\Challenge_MinStack.cs" />
     <Compile Include="CSharp\Challenge_RemoveDuplicateFromLinkedList.cs" />
     <Compile Include="CSharp\Challenge_RotateImage.cs" />
+    <Compile Include="CSharp\Challenge_SodukoValidater.cs" />
     <Compile Include="CSharp\Challenge_SpiralMatrix.cs" />
     <Compile Include="CSharp\Challenge_WordBreak.cs" />
-    <Compile Include="CSharp\Test00_HelloWorld.cs" />
-    <Compile Include="CSharp\Test02_Average2Numbers.cs" />
-    <Compile Include="CSharp\Test01_PassingParameters.cs" />
-    <Compile Include="CSharp\Test03_Enumerable.cs" />
+    <Compile Include="CSharp\Challenge_HelloWorld.cs" />
+    <Compile Include="CSharp\Challenge_Average2Numbers.cs" />
+    <Compile Include="CSharp\Challenge_LinqSum.cs" />
     <Compile Include="CSharp\Test04_Operators.cs" />
     <Compile Include="CSharp\Test05_Delegate.cs" />
-    <Compile Include="CSharp\Test06_Snippets.cs" />
-    <Compile Include="CSharp\Test07_BuildException.cs" />
     <Compile Include="CSharp\Test08_CreateNewTest.cs" />
     <Compile Include="CSharp\Challenge_FizzBuzz.cs" />
     <Compile Include="CSharp\Challenge_LongestSubString.cs" />
@@ -95,9 +94,14 @@
     <Compile Include="CSharp\Challenge_ReverseInteger.cs" />
     <Compile Include="CSharp\Challenge_RomanNumeral.cs" />
     <Compile Include="CSharp\Challenge_PhoneNumbers.cs" />
-    <Compile Include="CSharp\Challenge_Soduko.cs" />
+    <Compile Include="CSharp\Challenge_SodukoSolver.cs" />
     <Compile Include="Tools\AssertExtensions.cs" />
+    <Compile Include="Tools\Attributes\HardAttribute.cs" />
+    <Compile Include="Tools\Attributes\IntroAttribute.cs" />
+    <Compile Include="Tools\Attributes\MediumAttribute.cs" />
     <Compile Include="Tools\BaseTest.cs" />
+    <Compile Include="Tools\Attributes\EasyAttribute.cs" />
+    <Compile Include="Tools\Difficulty.cs" />
     <Compile Include="Tools\JsonHelper.cs" />
     <Compile Include="Tools\TestExtensions.cs" />
     <Compile Include="Tools\TestHelper.cs" />
@@ -122,6 +126,11 @@
     <Content Include="Questions\WebApi.txt" />
     <Content Include="_readme.txt" />
     <Content Include="Web\_readme.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Challenge\Easy\" />
+    <Folder Include="Challenge\Hard\" />
+    <Folder Include="Challenge\Medium\" />
   </ItemGroup>
   <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

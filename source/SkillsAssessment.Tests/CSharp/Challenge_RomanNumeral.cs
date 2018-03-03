@@ -6,9 +6,7 @@ namespace SkillsAssessment.Tests.CSharp
     [TestClass]
     public class Challenge_RomanNumeral
     {
-        // Given an integer, convert it to a roman numeral.
-        // Input is guaranteed to be within the range from 1 to 3999.
-
+        
         // [Reference]
         // https://en.wikipedia.org/wiki/Roman_numerals 
         // I = 1
@@ -29,7 +27,7 @@ namespace SkillsAssessment.Tests.CSharp
         //  207 = CCVII  - two hundreds, a five and two ones
         // 1066 = MLXVI  - a thousand, a fifty and a ten, a five and a one
 
-
+        [Hard]
         [TestMethod]
         public void Should_Convert_NumberToRoman()
         {
@@ -40,6 +38,7 @@ namespace SkillsAssessment.Tests.CSharp
             Assert.AreEqual("XXII", 22);
         }
 
+        [Hard]
         [TestMethod]
         public void Should_Convert_RomanToNumber()
         {
@@ -50,11 +49,22 @@ namespace SkillsAssessment.Tests.CSharp
             Assert.AreEqual(22, RomainToInt("XXII"));
         }
 
+        /// <summary>
+        /// Given an integer, convert it to a roman numeral.
+        /// Input is guaranteed to be within the range from 1 to 3999.
+        /// </summary>
+        /// <param name="num"></param>
+        /// <returns></returns>
         string IntToRoman(int num)
         {
             return string.Empty;
         }
 
+        /// <summary>
+        /// Given an roman numeral, convert it to an int
+        /// </summary>
+        /// <param name="roman"></param>
+        /// <returns></returns>
         int RomainToInt(string roman)
         {
             return 0;

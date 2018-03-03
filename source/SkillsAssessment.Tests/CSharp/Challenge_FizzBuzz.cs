@@ -8,11 +8,12 @@ namespace SkillsAssessment.Tests.CSharp
     [TestClass]
     public class Challenge_FizzBuzz : BaseTest
     {
+        [Easy]
         [TestMethod]
         public void Should_Print_FizzBuzz()
         {
             // Arrange
-            var expected = "1,2,Fizz,4,Buzz,Fizz,7,8,Fizz,Buzz,11,Fizz,13,14,FizzBuzz".Split(',');
+            var expected = new string[] { "1", "2", "Fizz", "4", "Buzz", "Fizz", "7", "8", "Fizz", "Buzz", "11", "Fizz", "13", "14", "FizzBuzz" };
 
             // Act
             var actual = FizzBuzz(15).ToArray();
@@ -21,16 +22,17 @@ namespace SkillsAssessment.Tests.CSharp
             CollectionAssert.AreEqual(expected, actual);
         }
 
+        /// <summary>
+        /// Returns the string representation of numbers from 1 to n
+        /// For each multiple of 3, returns "Fizz" instead of the number. 
+        /// For each multiple of 5, returns "Buzz" instead of the number. 
+        /// For numbers which are multiples of both 3 and 5, returns "FizzBuzz" instead of the number.
+        /// </summary>
+        /// <param name="n"></param>
+        /// <returns></returns>
         public IEnumerable<string> FizzBuzz(int n)
         {
-            // Write the method body to return the string representation of numbers from 1 to n.
-            // For each multiple of 3, print "Fizz" instead of the number. 
-            // For each multiple of 5, print "Buzz" instead of the number. 
-            // For numbers which are multiples of both 3 and 5, print "FizzBuzz" instead of the number.
-
-            // {write code here}
-
-            yield break;
+            throw new NotImplementedException("write code here");
         }
     }
 }

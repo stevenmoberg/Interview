@@ -6,6 +6,7 @@ namespace SkillsAssessment.Tests.CSharp
     [TestClass]
     public class Challenge_Median
     {
+        [Medium]
         [TestMethod]
         public void Should_Calculate_Median()
         {
@@ -13,11 +14,16 @@ namespace SkillsAssessment.Tests.CSharp
             Assert.AreEqual(2.5d, FindMedianSortedArrays(new int[] { 1, 2 }, new int[] { 3, 4 }));
         }
 
+        /// <summary>
+        /// There are two sorted arrays nums1 and nums2 of size m and n respectively.
+        /// Find the median of the two sorted arrays. 
+        /// </summary>
+        /// <param name="nums1"></param>
+        /// <param name="nums2"></param>
+        /// <returns></returns>
         public double FindMedianSortedArrays(int[] nums1, int[] nums2)
         {
-            // There are two sorted arrays nums1 and nums2 of size m and n respectively.
-            // Find the median of the two sorted arrays. 
-            return 0d;
+            throw new NotImplementedException("code solution here");
         }
     }
 }

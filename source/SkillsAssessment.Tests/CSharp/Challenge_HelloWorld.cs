@@ -6,6 +6,7 @@ namespace SkillsAssessment.Tests.CSharp
     [TestClass]
     public class Test00 : BaseTest
     {
+        [Intro]
         [TestMethod]
         public void Should_Create_Hello()
         {
@@ -23,6 +24,7 @@ namespace SkillsAssessment.Tests.CSharp
             throw new Exception("used to fail initial test - remove this");
         }
 
+        [Intro]
         [TestMethod]
         public void Should_Create_HelloWorld()
         {

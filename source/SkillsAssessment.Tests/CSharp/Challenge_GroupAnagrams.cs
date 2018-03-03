@@ -10,6 +10,7 @@ namespace SkillsAssessment.Tests.CSharp
     [TestClass]
     public class Challenge_GroupAnagrams
     {
+        [Medium]
         [TestMethod]
         public void Should_Group_Anagrams()
         {

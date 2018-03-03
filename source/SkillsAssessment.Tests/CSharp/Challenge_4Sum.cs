@@ -8,6 +8,7 @@ namespace SkillsAssessment.Tests.CSharp
     [TestClass]
     public class Challenge_4Sum
     {
+        [Medium]
         [TestMethod]
         public void Should_Find_UniqueSumOf4()
         {

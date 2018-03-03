@@ -10,6 +10,7 @@ namespace SkillsAssessment.Tests.CSharp
     [TestClass]
     public class Challenge_MinStack
     {
+        [Medium]
         [TestMethod]
         public void Should_Create_MinStack()
         {

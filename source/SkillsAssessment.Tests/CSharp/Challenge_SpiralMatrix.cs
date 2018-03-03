@@ -10,6 +10,7 @@ namespace SkillsAssessment.Tests.CSharp
     [TestClass]
     public class Challenge_SpiralMatrix
     {
+        [Hard]
         [TestMethod]
         public void Should_Create_SpiralMatrix()
         {

@@ -5,31 +5,9 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 namespace SkillsAssessment.Tests.CSharp
 {
     [TestClass]
-    public class Challenge_Soduko
+    public class Challenge_SodukoSolver
     {
-        [TestMethod]
-        public void Should_ValidateSoduko()
-        {
-            // Arrange
-            var board = CreateBoard(
-                "5|3| | |7| | | | ",
-                "6| | |1|9|5| | | ",
-                " |9|8| | | | |6| ",
-                "8| | | |6| | | |3",
-                "4| | |8| |3| | |1",
-                "7| | | |2| | | |6",
-                " |6| | | | |2|8| ",
-                " | | |4|1|9| | |5",
-                " | | | |8| | |7|9"
-            );
-
-            // Act
-            var isValid = IsValidSudoku(board);
-
-            // Assert
-            Assert.IsTrue(isValid);
-        }
-
+        [Hard]
         [TestMethod]
         public void Should_SolveSoduko()
         {
@@ -66,20 +44,17 @@ namespace SkillsAssessment.Tests.CSharp
         }
 
 
-        public bool IsValidSudoku(char[,] board)
-        {
-            // Determine if a Sudoku is valid, according to: Sudoku Puzzles -The Rules.
-            // http://sudoku.com.au/TheRules.aspx
-            // each row must contain 1-9
-            // each column must contain 1-9
-            // each of the 3x3 sub-boxes must contain 1-9
-
-            return false;
-        }
-
+        /// <summary>
+        /// Solve the given Sudoku puzzle
+        /// http://sudoku.com.au/TheRules.aspx
+        /// each row must contain 1-9
+        /// each column must contain 1-9
+        /// each of the 3x3 sub-boxes must contain 1-9
+        /// </summary>
+        /// <param name="board"></param>
         public void SolveSudoku(char[,] board)
         {
-            // code - solve soduko board here
+            throw new NotImplementedException("Code solution here");
         }
 
 

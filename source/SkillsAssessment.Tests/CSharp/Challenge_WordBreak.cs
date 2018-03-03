@@ -10,6 +10,7 @@ namespace SkillsAssessment.Tests.CSharp
     [TestClass]
     public class Challenge_WordBreak
     {
+        [Medium]
         [TestMethod]
         public void Should_Calculate_WordBreak()
         {
@@ -27,19 +28,19 @@ namespace SkillsAssessment.Tests.CSharp
         }
 
         /// <summary>
-        /// Given a non-empty string s and a dictionary wordDict containing a list of non-empty words,
-        /// add spaces in s to construct a sentence where each word is a valid dictionary word.
+        /// Given a non-empty string s and a dictionary containing a list of non-empty words,
+        /// add spaces to construct a sentence where each word is a valid dictionary word.
         /// You may assume the dictionary does not contain duplicate words.
         /// </summary>
         /// <example>
         /// s = "catsanddog",
-        /// dict = ["cat", "cats", "and", "sand", "dog"].
+        /// words = ["cat", "cats", "and", "sand", "dog"].
         /// A solution is ["cats and dog", "cat sand dog"].
         /// </example>
-        /// <param name="s"></param>
+        /// <param name="text"></param>
         /// <param name="wordDict"></param>
         /// <returns></returns>
-        public IEnumerable<string> WordBreak(string s, IEnumerable<string> wordDict)
+        public IEnumerable<string> WordBreak(string text, IEnumerable<string> words)
         {
             throw new NotImplementedException("Code method body");
         }

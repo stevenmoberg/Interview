@@ -10,6 +10,7 @@ namespace SkillsAssessment.Tests.CSharp
     [TestClass]
     public class Challenge_Merge_Intervals
     {
+        [Medium]
         [TestMethod]
         public void Should_Merge_Intervals()
         {

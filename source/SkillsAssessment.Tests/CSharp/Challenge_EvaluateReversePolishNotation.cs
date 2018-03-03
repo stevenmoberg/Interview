@@ -10,6 +10,7 @@ namespace SkillsAssessment.Tests.CSharp
     [TestClass]
     public class Challenge_EvaluateReversePolishNotation
     {
+        [Medium]
         [TestMethod]
         public void Should_Calculate_ReversePolishNotation()
         {

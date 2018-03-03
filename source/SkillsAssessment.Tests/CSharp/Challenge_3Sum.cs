@@ -8,6 +8,7 @@ namespace SkillsAssessment.Tests.CSharp
     [TestClass]
     public class Challenge_3Sum
     {
+        [Medium]
         [TestMethod]
         public void Should_Find_UniqueSumOf3()
         {

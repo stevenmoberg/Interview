@@ -6,6 +6,7 @@ namespace SkillsAssessment.Tests.CSharp
     [TestClass]
     public class Challenge_ZigZag
     {
+        [Hard]
         [TestMethod]
         public void Should_Print_ZigZag()
         {
@@ -41,22 +42,27 @@ namespace SkillsAssessment.Tests.CSharp
         // MIIOSNVEOYTRWDE
 
 
+        /// <summary>
+        /// Stack string in the following zigzag pattern
+        /// Re-read zigzag content from left to right without spaces
+        /// </summary>
+        /// <remarks>
+        /// n=numRows
+        /// 
+        /// 1                           2n-1                         4n-3
+        /// 2                     2n-2  2n                    4n-4   4n-2
+        /// 3               2n-3        2n+1              4n-5       .
+        /// .           .               .               .            .
+        /// .       n+2                 .           3n.
+        /// n-1 n+1                     3n-3    3n-1                 5n-5
+        /// n                           3n-2                         5n-4
+        /// </remarks>
+        /// <param name="s"></param>
+        /// <param name="numRows"></param>
+        /// <returns></returns>
         public string ZigZag(string s, int numRows)
         {
-            // stack string in the following zigzag pattern
-            // re-read zigzag content from left to right without spaces
-
-            /*n=numRows
-              1                           2n-1                         4n-3
-              2                     2n-2  2n                    4n-4   4n-2
-              3               2n-3        2n+1              4n-5       .
-              .           .               .               .            .
-              .       n+2                 .           3n               .
-              n-1 n+1                     3n-3    3n-1                 5n-5
-              n                           3n-2                         5n-4
-            */
-
-            return string.Empty;
+            throw new NotImplementedException("Code solution here");
         }
     }
 }

@@ -10,6 +10,7 @@ namespace SkillsAssessment.Tests.CSharp
     [TestClass]
     public class Challenge_CompareVersionNumbers
     {
+        [Medium]
         [TestMethod]
         public void Should_Compare_VersionNumbers()
         {
@@ -25,6 +26,9 @@ namespace SkillsAssessment.Tests.CSharp
             AssertEx.AreEqual(expected, actual);
         }
 
+        /// <summary>
+        /// Logical String Comparer to sort versions in proper order
+        /// </summary>
         public class VersionComparer : IComparer<string>
         {
             public int Compare(string x, string y)
