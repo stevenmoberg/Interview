@@ -5,7 +5,7 @@ namespace SkillsAssessment.Tests.CSharp
     [TestClass]
     public class Challenge_Intro
     {
-        
+
         [Intro]
         [TestMethod]
         public void Should_Add_Two_Numbers()
@@ -19,10 +19,10 @@ namespace SkillsAssessment.Tests.CSharp
         /// <summary>
         /// Add two ints
         /// </summary>
-        /// <param name="value1"></param>
-        /// <param name="value2"></param>
+        /// <param name="x"></param>
+        /// <param name="y"></param>
         /// <returns></returns>
-        public int Add(int value1, int value2)
+        public int Add(int x, int y)
         {
             // Task 1) additional test notes/constraints will exists here
 
@@ -31,7 +31,7 @@ namespace SkillsAssessment.Tests.CSharp
             // throw new NotImplementedException("Fix method body");
 
             // Coding Task type - fixing incorrect method body
-            return value1;
+            return x;
         }
     }
 }

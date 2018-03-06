@@ -22,7 +22,7 @@ namespace SkillsAssessment.Tests.CSharp
         }
 
         /// <summary>
-        /// Return the words that can be typed using letters of alphabet on only one row's of American 
+        /// Return the words that can be typed using letters of alphabet on only one row of an American keyboard
         /// </summary>
         /// <param name="words"></param>
         /// <returns></returns>
