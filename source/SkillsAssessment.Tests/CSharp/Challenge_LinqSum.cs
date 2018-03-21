@@ -7,8 +7,6 @@ namespace SkillsAssessment.Tests.CSharp
     [TestClass]
     public class Test03 : BaseTest
     {
-        // Task 1) code solution using Linq to sum all even numbers
-
         [Easy]
         [TestMethod]
         public void Should_Sum_Even_Numbers()
@@ -29,7 +27,9 @@ namespace SkillsAssessment.Tests.CSharp
         /// <param name="values"></param>
         /// <returns></returns>
         int SumEvenNumbers(IEnumerable<int> values)
-        {            
+        {
+            // Task 1) code solution using Linq
+
             throw new NotImplementedException("code solution here");
         }
     }

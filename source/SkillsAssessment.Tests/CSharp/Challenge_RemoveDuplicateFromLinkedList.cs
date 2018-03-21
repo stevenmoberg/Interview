@@ -10,9 +10,6 @@ namespace SkillsAssessment.Tests.CSharp
         [TestMethod]
         public void Should_Remove_Duplicates_From_SortedList()
         {
-            // Task 1) Write DeleteDuplicates method
-            // Task 2) Write ListNode.ToArray implementation
-
             // Arrange
             var test1 = CreateListNode(1, 1, 2);
             var test2 = CreateListNode(1, 2, 3, 3);
@@ -27,12 +24,15 @@ namespace SkillsAssessment.Tests.CSharp
         }
 
         /// <summary>
-        /// Given a sorted linked list, delete all duplicates such that each element appear only once. 
+        /// Given a sorted linked list, delete all duplicates such that each element appear only once.
         /// </summary>
         /// <param name="head"></param>
         /// <returns></returns>
         public ListNode DeleteDuplicates(ListNode head)
         {
+            // Task 1) Write ListNode.ToArray implementation
+            // Task 2) Write DeleteDuplicates method
+
             throw new NotImplementedException("Create Method body here");
         }
 
@@ -49,7 +49,7 @@ namespace SkillsAssessment.Tests.CSharp
             }
         }
 
-        #region Helper 
+        #region Helper
 
         private static ListNode CreateListNode(params int[] values)
         {

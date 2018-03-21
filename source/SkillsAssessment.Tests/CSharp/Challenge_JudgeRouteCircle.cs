@@ -10,8 +10,9 @@ namespace SkillsAssessment.Tests.CSharp
         [TestMethod]
         public void Should_Calculate_RouteCircle()
         {
-            Assert.IsTrue(JudgeCircle("UD"));
-            Assert.IsFalse(JudgeCircle("LL"));
+            Assert.IsTrue(JudgeCircle("UDRL"));
+            Assert.IsTrue(JudgeCircle("UURRDDLL"));
+            Assert.IsFalse(JudgeCircle("LLUDR"));
         }
 
         /// <summary>

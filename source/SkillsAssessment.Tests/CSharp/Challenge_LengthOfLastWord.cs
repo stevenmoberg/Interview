@@ -10,14 +10,10 @@ namespace SkillsAssessment.Tests.CSharp
         [TestMethod]
         public void Should_Calculate_Length_of_Last_Word()
         {
-            // Arrange
-            var words = "Hello Bob";
-
-            // Act
-            var length = LengthOfLastWord(words);
-
-            // Assert
-            Assert.AreEqual(3, length);
+            // AAA
+            Assert.AreEqual(3, LengthOfLastWord("Hello Bob"));
+            Assert.AreEqual(7, LengthOfLastWord("A longer snippet"));
+            Assert.AreEqual(6, LengthOfLastWord("  a  messy  string  "));
         }
 
         /// <summary>
