@@ -10,7 +10,7 @@ namespace SkillsAssessment.Tests.CSharp
         [TestMethod]
         public void Should_Add_Two_Numbers()
         {
-            Assert.AreEqual(2, Add(1, 1), "1+1 shouuld equal 2");
+            Assert.AreEqual(2, Add(1, 1), "1+1 should equal 2");
             Assert.AreEqual(3, Add(1, 2), "1+2 should equal 3");
             Assert.AreEqual(3, Add(2, 1), "2+1 should equal 3");
             Assert.AreEqual(5, Add(2, 3), "2+3 should equal 5");
@@ -31,7 +31,7 @@ namespace SkillsAssessment.Tests.CSharp
             // throw new NotImplementedException("Fix method body");
 
             // Coding Task type - fixing incorrect method body
-            return x;
+            return x - y;
         }
     }
 }
