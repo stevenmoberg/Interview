@@ -23,9 +23,9 @@ namespace SkillsAssessment.Tests.CSharp
         }
 
         /// <summary>
-        /// Returns the string representation of numbers from 1 to n
-        /// For each multiple of 3, returns "Fizz" instead of the number. 
-        /// For each multiple of 5, returns "Buzz" instead of the number. 
+        /// Return the string representations of numbers from 1 to n
+        /// For each multiple of 3, returns "Fizz" instead of the number.
+        /// For each multiple of 5, returns "Buzz" instead of the number.
         /// For numbers which are multiples of both 3 and 5, returns "FizzBuzz" instead of the number.
         /// </summary>
         /// <param name="n"></param>
