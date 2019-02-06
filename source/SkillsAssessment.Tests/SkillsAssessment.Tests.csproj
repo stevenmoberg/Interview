@@ -80,6 +80,7 @@
     <Compile Include="CSharp\Challenge_LengthOfLastWord.cs" />
     <Compile Include="CSharp\Challenge_LetterChange.cs" />
     <Compile Include="CSharp\Challenge_LongestString.cs" />
+    <Compile Include="CSharp\Challenge_LRUCache.cs" />
     <Compile Include="CSharp\Challenge_Merge_Intervals.cs" />
     <Compile Include="CSharp\Challenge_MinStack.cs" />
     <Compile Include="CSharp\Challenge_MoveZeros.cs" />
