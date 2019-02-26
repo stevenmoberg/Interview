@@ -69,7 +69,6 @@
     <Compile Include="CSharp\Challenge_3Sum.cs" />
     <Compile Include="CSharp\Challenge_4Sum.cs" />
     <Compile Include="CSharp\Challenge_Calculator.cs" />
-    <Compile Include="CSharp\Challenge_CompareVersionNumbers.cs" />
     <Compile Include="CSharp\Challenge_EvaluateReversePolishNotation.cs" />
     <Compile Include="CSharp\Challenge_GroupAnagrams.cs" />
     <Compile Include="CSharp\Challenge_HammingDistance.cs" />
@@ -89,6 +88,7 @@
     <Compile Include="CSharp\Challenge_SimpleAdding.cs" />
     <Compile Include="CSharp\Challenge_SodukoValidater.cs" />
     <Compile Include="CSharp\Challenge_SpiralMatrix.cs" />
+    <Compile Include="CSharp\Challenge_StringLogicalComparer.cs" />
     <Compile Include="CSharp\Challenge_WordBreak.cs" />
     <Compile Include="CSharp\Challenge_HelloWorld.cs" />
     <Compile Include="CSharp\Challenge_Average2Numbers.cs" />
